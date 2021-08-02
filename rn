@@ -1,0 +1,42 @@
+#! /bin/bash 
+
+echo "Test - ./hw4 -gB123/S123 blinker \n"
+./hw4 -gB123/S123 blinker 
+echo " Test - ./hw4 blinker -gB/S \n" 
+./hw4 blinker -gB/S
+echo "This - ./hw4 -gB123/S2456 -i blinker | head -17 \n"
+./hw4 -gB123/S2456 -i blinker | head -17
+echo " Test -  ./hw4 -d'.' -l'O' blinker \n"
+./hw4 -d"." -l"O" blinker 
+echo "Test - ./hw4 blinker" 
+./hw4 blinker
+echo "Test - ./hw4 -i blinker | head -17" 
+./hw4 -i blinker | head -17
+echo "Test - ./hw4 -gS12/B34 blinker"
+./hw4 -gS12/B34 blinker
+echo "Test - ./hw4 -gB12/S34 blinker"
+./hw4 -gB12/S34 blinker
+echo "Test - ./hw4 -gB9/S34 blinker"
+./hw4 -gB9/S34 blinker
+echo "Test - ./hw4 -gB/S blinker"
+./hw4 -gB/S blinker
+echo "Test - ./hw4 -gB012345678/S012345678 blinker"
+./hw4 -gB012345678/S012345678 blinker
+echo "Test - ./hw4 -gB22/S012345678 blinker"
+ ./hw4 -gB22/S012345678 blinker
+ echo "Test - ./hw4 -gB12/S321 blinker"
+ ./hw4 -gB12/S321 blinker
+ echo "Test - ./hw4 -gB23/ blinker"
+ ./hw4 -gB23/ blinker
+ echo "Test - ./hw4 -gS blinker"
+ ./hw4 -gS blinker
+echo "Test - ./hw4 -gB/S -y blinker"
+./hw4 -gB/S -y blinker
+echo "Test - ./hw4 -gB/S  blinker blinker"
+./hw4 -gB/S blinker blinker
+echo "Test - ./hw4 -gB/S  blinker1"
+./hw4 -gB/S  blinker1
+echo "Test - ./hw4 -gB/S -gB/S blinker"
+./hw4 -gB/S -gB/S blinker
+echo "Test - ./hw4 -il'O' blinker | head -17"
+./hw4 -il'O' blinker | head -17
